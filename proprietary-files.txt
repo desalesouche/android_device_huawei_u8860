@@ -1,0 +1,206 @@
+# Adreno 205 files
+
+lib/libC2D2.so
+lib/libOpenVG.so
+lib/libgsl.so
+lib/libsc-a2xx.so
+
+lib/egl/egl.cfg
+lib/egl/eglsubAndroid.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+
+# Radio Interface Layer (RIL)
+
+lib/libril-qc-1.so
+lib/libril-qc-qmi-1.so
+lib/libril-qcril-hook-oem.so
+
+# Let's do it quick & dirty for the moment
+# We should build from source, but looks like we have yet another
+# RIL with ugly vendor hacks
+
+bin/rild
+lib/libril.so
+lib/libreference-ril.so
+lib/libcm.so
+
+lib/libauth.so
+lib/libdiag.so
+# lib/libdl.so
+lib/libdsm.so
+lib/libdss.so
+lib/libgsdi_exp.so
+lib/libgstk_exp.so
+lib/libmm-abl.so
+lib/libmm-color-convertor.so
+lib/libmmgsdilib.so
+# lib/libmmitest.so
+lib/libnv.so
+lib/liboem_rapi.so
+lib/liboncrpc.so
+lib/libpbmlib.so
+lib/libqmi.so
+lib/libqmiservices.so
+lib/libqueue.so
+lib/libuim.so
+lib/libwms.so
+lib/libwmsts.so
+lib/libdsi_netctrl.so
+lib/libdsutils.so
+lib/libidl.so
+lib/libnetmgr.so
+# lib/libqdi.so
+lib/libqdp.so
+# lib/libqc-opt.so
+# lib/libqsap_sdk.so
+
+bin/port-bridge
+bin/qmuxd
+bin/netmgrd
+
+bin/rmt_storage
+bin/rmt_oeminfo
+bin/oem_rpc_svc
+# bin/callife
+# bin/filebackup
+# bin/ds_fmc_appd
+# bin/wlan_detect
+# bin/wl
+bin/modempre
+
+# oem_rpc_svc
+lib/libhwrpc.so
+
+# rmt_oeminfo
+lib/liboeminfo.so
+
+# Camera
+
+lib/liboemcamera.so
+lib/libmmjpeg.so
+lib/libmmipl.so
+# lib/libcamera_client.so
+lib/libgemini.so
+
+lib/libchromatix_imx074_default_video.so
+lib/libchromatix_imx074_preview.so
+lib/libchromatix_imx074_zsl.so
+lib/libchromatix_mt9e013_ar.so
+lib/libchromatix_mt9e013_default_video.so
+lib/libchromatix_mt9e013_preview.so
+lib/libchromatix_mt9e013_video_hfr.so
+
+
+# USB storage ISO image with drivers
+
+# cdrom/autorun.iso
+
+# Other libraries and proprietary binaries
+
+lib/libaudioalsa.so
+etc/gps.conf
+# etc/vold.fstab
+bin/akmd8962
+bin/akmd8975
+# bin/charge
+
+# Original DHCP config
+
+etc/dhcpcd/dhcpcd.conf
+
+# Firmware files
+
+etc/firmware/leia_pfp_470.fw
+etc/firmware/leia_pm4_470.fw
+etc/firmware/vidc_720p_command_control.fw
+etc/firmware/vidc_720p_h263_dec_mc.fw
+etc/firmware/vidc_720p_h264_dec_mc.fw
+etc/firmware/vidc_720p_h264_enc_mc.fw
+etc/firmware/vidc_720p_mp4_dec_mc.fw
+etc/firmware/vidc_720p_mp4_enc_mc.fw
+etc/firmware/vidc_720p_vc1_dec_mc.fw
+etc/firmware/yamato_pfp.fw
+etc/firmware/yamato_pm4.fw
+
+etc/wifi/wpa_supplicant.conf
+
+# Hardware Abstraction Layer (HAL) libraries
+# lib/hw/camera.msm7630_surf.so
+# lib/hw/copybit.msm7630_surf.so
+# lib/hw/gps.default.so
+# lib/hw/gralloc.msm7630_surf.so
+# lib/hw/hwcomposer.msm7630_surf.so
+# lib/hw/libbcmfm_if.so
+lib/hw/sensors.default.so
+
+# lib/modules/ansi_cprng.ko
+# lib/modules/cls_flow.ko
+# lib/modules/cpaccess.ko
+# lib/modules/dal_remotetest.ko
+# lib/modules/dma_test.ko
+# lib/modules/evbug.ko
+# lib/modules/gspca_main.ko
+# lib/modules/librasdioif.ko
+# lib/modules/mtd_erasepart.ko
+# lib/modules/mtd_nandecctest.ko
+# lib/modules/mtd_oobtest.ko
+# lib/modules/mtd_pagetest.ko
+# lib/modules/mtd_readtest.ko
+# lib/modules/mtd_speedtest.ko
+# lib/modules/mtd_stresstest.ko
+# lib/modules/mtd_subpagetest.ko
+# lib/modules/mtd_torturetest.ko
+# lib/modules/qce.ko
+# lib/modules/qcedev.ko
+# lib/modules/qcrypto.ko
+# lib/modules/reset_modem.ko
+# lib/modules/sch_dsmark.ko
+# lib/modules/scsi_wait_scan.ko
+
+# usr/icu/icudt46l.dat
+
+usr/idc/qwerty.idc
+usr/idc/qwerty2.idc
+
+usr/keychars/Generic.kcm
+usr/keychars/Virtual.kcm
+usr/keychars/qwerty.kcm
+usr/keychars/qwerty2.kcm
+
+usr/keylayout/7k_handset.kl
+usr/keylayout/AVRCP.kl
+usr/keylayout/Generic.kl
+usr/keylayout/Vendor_045e_Product_028e.kl
+usr/keylayout/Vendor_046d_Product_c216.kl
+usr/keylayout/Vendor_046d_Product_c294.kl
+usr/keylayout/Vendor_046d_Product_c299.kl
+usr/keylayout/Vendor_046d_Product_c532.kl
+usr/keylayout/Vendor_054c_Product_0268.kl
+usr/keylayout/Vendor_05ac_Product_0239.kl
+usr/keylayout/Vendor_22b8_Product_093d.kl
+usr/keylayout/msm_tma300_ts.kl
+usr/keylayout/qwerty.kl
+usr/keylayout/surf_keypad.kl
+
+# Wifi
+wifi/firmware.bin
+wifi/firmware_apsta.bin
+wifi/nvram.txt
+
+# bin/hostapd
+# bin/hostapd_cli
+
+# Bluetooth
+etc/bluetooth/BCM4329.hcd
+# etc/bluetooth/BCM4330B1_002.001.003.0688.0689.hcd
+# etc/bluetooth/BCM4330.hcd
+# etc/bluetooth/init.bcm.bt.sh
+# etc/bluetooth/init.bcm.chip_off.sh
+# etc/bluetooth/init.bcm.chip_on.sh
+
+bin/brcm_patchram_plus
+# bin/btld
+
